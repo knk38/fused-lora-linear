@@ -21,7 +21,7 @@
 Requires Python 3.9+, PyTorch 2.x, CUDA (optional for GPU path).
 
 ```bash
-git clone https://github.com/<you>/fused-lora-linear
+git clone https://github.com/knk38/fused-lora-linear
 cd fused-lora-linear
 pip install -e .
 # (Optional) build CUDA extension
