@@ -1,0 +1,19 @@
+
+---
+
+# Minimal code stubs (so it imports/runs today)
+
+### `pyproject.toml`
+```toml
+[build-system]
+requires = ["setuptools>=68", "wheel", "torch", "pybind11"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fused-lora-linear"
+version = "0.1.0"
+description = "Fused LoRA Linear layer for PyTorch (CUDA/Triton) with CPU fallback"
+readme = "README.md"
+authors = [{name = "Kirin Kambon", email = "Nirik8801@gmail.com"}]
+license = {text = "MIT"}
+dependencies = ["torch>=2.1"]
